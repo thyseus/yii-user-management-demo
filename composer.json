@@ -1,0 +1,33 @@
+{
+  "name":"thyseus/yii-user-management-demo",
+    "description":"Demo application for the yii-user-management module collection",
+    "keywords":[ "yii", "application", "web", "boilerplate", "template", "demo" ],
+    "homepage":"https://github.com/thyseus/yii-user-management-demo",
+    "type":"yii-application",
+    "license":"GPL3",
+    "minimum-stability":"dev",
+    "config":{
+      "vendor-dir":"vendor"
+    },
+    "authors":[
+    {
+      "name":"Herbert Maschke",
+      "email":"thyseus@gmail.com"
+    }
+  ],
+    "repositories":[
+    {
+      "url": "https://github.com/thyseus/yii-user-management.git",
+      "type": "git"
+    }
+  ],
+    "require":{
+      "yiisoft/yii":">=1.1.14",
+      "thyseus/yii-user-management":"dev-master"
+    },
+    "autoload":{
+      "psr-0":{
+        "Yiinitializr":"common/lib/"
+      }
+    }
+}
